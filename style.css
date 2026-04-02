@@ -1,0 +1,138 @@
+
+body {
+  background-color: #d3d0d0;
+  padding: 0 20px;
+}
+ol {
+  font-weight: bold;
+}
+figcaption{
+  text-align: center;
+}
+.about-me {
+ background-color: #a99999;
+ padding: 40px 20px;
+}
+.about-box{
+ display: flex;
+ align-items: center; 
+ gap: 40px;             
+ padding: 40px;
+}
+.about-text{
+  background-color: #a99999;
+  padding: 20px;
+  border-radius: 10px;
+}
+.me-image {
+  width: 280px;
+  height: auto;
+  border-radius: 12px;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;          
+  padding: 0 40px;  
+}
+#nav-table {
+  width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+}
+#nav-table th {
+  border: 1px solid rgb(0, 0, 0);
+}
+#nav-table a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 5px;
+}
+#nav-table a:hover {
+  background-color: #333;
+  color: white;
+}
+#education-heading th{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.skills strong {
+  display: inline-block;   
+  background-color: #a99999;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.image-row img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+}
+.image-block {
+  text-align: center;
+  margin: 40px 0;
+}
+.image-block img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.caption {
+  margin-top: 12px;
+  font-size: 1em;
+}
+td{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  font-size: 1.12em;
+}
+tr:hover {
+  background-color: #f2f2f2;  
+  transition: 0.3s;
+}
+body {font-family: sans-serif;
+}
+.culture-section {
+  background-color: #f9e7e8;
+  padding: 40px 10px;
+}
+.cultureimg-section {
+  background-color: #a96b6a;
+  padding: 40px 20px;
+}
+.art-section {
+  background-color: #daeffc;
+  padding: 40px 10px;
+}
+.artimg-section {
+  background-color: #6c99bd;
+  padding: 40px 20px;
+}
+.music-section {
+  background-color: #f6e2d3;
+  padding: 40px 10px;
+}
+.musicimg-section{
+  background-color: #a48976;
+  padding: 40px 20px;
+}
+.food-section {
+  background-color: #dfeecc;
+  padding: 40px 10px;
+}
+.foodimg-section {
+  background-color: #95b388;
+  padding: 40px 20px;
+}
